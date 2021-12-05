@@ -2,7 +2,7 @@
     <div class="flex items-center space-x-4">
         <div class="flex-shrink-0">
             <img
-                class="h-16 w-16 rounded-full"
+                class="w-16 h-16"
                 :src="languageLogo"
                 alt="Language Logo"
             />
