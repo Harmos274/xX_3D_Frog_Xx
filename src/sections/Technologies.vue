@@ -19,56 +19,65 @@
 
 <script setup lang="ts">
 import LanguageProgress from '../components/LanguageProgress.vue';
+import pythonLogo from "../assets/images/pythonlogo.svg?url"
+import rustLogo from "../assets/images/rustlogo.png?url"
+import haskellLogo from "../assets/images/haskelllogo.png?url"
+import csharpLogo from "../assets/images/csharplogo.svg?url"
+import cLogo from "../assets/images/clogo.svg?url"
+import cppLogo from "../assets/images/cpplogo.svg?url"
+import tsLogo from "../assets/images/tslogo.svg?url"
+import jsLogo from "../assets/images/jslogo.svg?url"
+
 
 const languages = [
     {
-        "name": "Python",
-        "percentage": "80",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
-        "color": "green-800"
+        name: "Python",
+        percentage: "80",
+        logo: pythonLogo,
+        color: "green-800"
     },
     {
-        "name": "Rust",
-        "percentage": "82",
-        "logo": "https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png",
-        "color": "red-500"
+        name: "Rust",
+        percentage: "82",
+        logo: rustLogo,
+        color: "red-500"
     },
     {
-        "name": "Haskell",
-        "percentage": "90",
-        "logo": "https://i.imgur.com/tuFExZl.png",
-        "color": "purple-800"
+        name: "Haskell",
+        percentage: "90",
+        logo: haskellLogo,
+        color: "purple-800"
 
     },
     {
-        "name": "C#",
-        "percentage": "70",
-        "logo": "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png",
-        "color": "purple-900"
+        name: "C#",
+        percentage: "70",
+        logo: csharpLogo,
+        color: "purple-900"
     },
     {
-        "name": "C",
-        "percentage": "90",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png",
-        "color": "blue-500"
+        name: "C",
+        percentage: "90",
+        logo: cLogo,
+        color: "blue-500"
     },
     {
-        "name": "C++",
-        "percentage": "60",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png",
-        "color": "blue-500"
+        name: "C++",
+        percentage: "60",
+        logo: cppLogo,
+        color: "blue-500"
     },
     {
-        "name": "Typescript",
-        "percentage": "85",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png",
-        "color": "blue-800"
+        name: "Typescript",
+        percentage: "85",
+        logo: tsLogo,
+        color: "blue-800"
     },
     {
-        "name": "JavaScript",
-        "percentage": "75",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/768px-Unofficial_JavaScript_logo_2.svg.png",
-        "color": "yellow-300"
+        name: "JavaScript",
+        percentage: "75",
+        logo: jsLogo,
+        color: "yellow-300"
     }
 ]
 </script>
