@@ -1,10 +1,9 @@
 <template>
     <div class="flex items-center space-x-4">
         <div class="flex-shrink">
-            <img
-                class="w-16 h-16"
-                :src="languageLogo"
-                alt="Language Logo"
+            <div
+                class="w-16 h-20 bg-contain bg-no-repeat bg-center"
+                :style="{ backgroundImage: `url(${languageLogo})` }"
             />
         </div>
         <div class="flex-1 min-w-0">

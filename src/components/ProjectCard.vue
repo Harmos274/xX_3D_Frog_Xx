@@ -1,5 +1,5 @@
 <template>
-    <div class="border-2 border-white rounded-lg w-80">
+    <div class="border-2 border-white rounded-lg w-screen-2 sm:w-80">
         <div
             class="bg-cover bg-top h-52 rounded-t-md"
             :style="{ backgroundImage: `url(${pictureUrl})` }"
@@ -8,7 +8,7 @@
             <h5 class="font-mono font-bold text-2xl tracking-tight mb-2">{{ title }}</h5>
             <p class="font-mono mb-3 description-line-clamp">{{ description }}</p>
             <a
-                href="#"
+                :href="informationUrl"
                 class="font-mono rounded-lg text-sm px-3 py-2 text-center inline-flex items-center border-2 border-gray-200 hover:text-purple-500 hover:border-purple-500"
             >
                 See more
@@ -33,7 +33,8 @@
 defineProps({
     title: String,
     description: String,
-    pictureUrl: String
+    pictureUrl: String,
+    informationUrl: String
 })
 </script>
 
@@ -45,5 +46,4 @@ defineProps({
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
-
 </style>

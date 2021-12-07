@@ -14,6 +14,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      width: {
+        'screen-2': 'calc(100vw - 1rem)'
+      },
       inset: {
         '1/5': '20%',
         '1/10': '10%'

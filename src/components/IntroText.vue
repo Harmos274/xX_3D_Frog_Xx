@@ -36,7 +36,7 @@
             <span class="font-bold">Linux</span> on a daily basis therefore i have some knowledge on it.
         </p>
         <div class="mt-4">
-            <a class="underline">Get to know me through my projects!</a>
+            <a class="underline cursor-pointer hover:text-purple-500">Get to know me through my projects!</a>
         </div>
     </rounded-text-box>
 </template>

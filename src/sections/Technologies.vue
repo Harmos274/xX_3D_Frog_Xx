@@ -29,7 +29,7 @@ const languages = [
     },
     {
         "name": "Rust",
-        "percentage": "85",
+        "percentage": "82",
         "logo": "https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png",
         "color": "red-500"
     },
@@ -54,7 +54,7 @@ const languages = [
     },
     {
         "name": "C++",
-        "percentage": "80",
+        "percentage": "60",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png",
         "color": "blue-500"
     },
