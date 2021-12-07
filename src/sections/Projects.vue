@@ -23,44 +23,43 @@
 
 <script setup lang="ts">
 import ProjectCard from '../components/ProjectCard.vue';
+import thisWebsiteProject from "../assets/images/thiswebsiteproject.png?url"
+import imageCompressorProject from "../assets/images/imagecompressorproject.png?url"
+import areaProject from "../assets/images/areaproject.png?url"
+import plazzaProject from "../assets/images/plazzaproject.png?url"
+import lerveProject from "../assets/images/lerveproject.jpg?url"
 import {ref} from "vue";
 
 const staredProject = [
   {
-    title: "Miaou 1",
-    description: "nya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nyanya nya",
-    picture: "https://placekitten.com/500/500",
-    information: ""
+    title: "This website",
+    description: "This website is a good insight of my competencies in VueJS 3, i used TailWind CSS and ThreeJS to make it.",
+    picture: thisWebsiteProject,
+    information: "https://github.com/Harmos274/xX_3D_Frog_Xx"
   }, {
-    title: "Miaou 1",
-    description: "nya nya",
-    picture: "https://placekitten.com/500/500",
-    information: ""
+    title: "Image Compressor",
+    description: "K-mean algorithm based image compressor, fully written in Haskell.",
+    picture: imageCompressorProject,
+    information: "https://github.com/Harmos274/ImageCompressor"
   }, {
-    title: "Miaou 1",
-    description: "nya nya",
-    picture: "https://placekitten.com/500/500",
-    information: ""
+    title: "Area",
+    description: "A dashboard for Github, Reddit and Spotify. I fully developed the back-end in TypeScript with Express.",
+    picture: areaProject,
+    information: "https://github.com/Harmos274/Area"
   }
 ]
 
 const otherProjects = [
   {
-    title: "new",
-    description: "desc",
-    picture: "",
-    information: ""
+    title: "Plazza",
+    description: "A concurrent programming group project using C++. Simulate a whole pizzeria with cooks and kitchens using threads.",
+    picture: plazzaProject,
+    information: "https://github.com/Harmos274/Plazza"
   }, {
-    title: "new",
-    description: "desc",
-    picture: "",
-    information: ""
-  },
-  {
-    title: "new",
-    description: "desc",
-    picture: "",
-    information: ""
+    title: "lerve",
+    description: "A simple Scheme-like Lisp interpreter web API, written in F# with .NET Core. I wrote it to test .NET Core integration with F#'s syntax.",
+    picture: lerveProject,
+    information: "https://github.com/Harmos274/lerve"
   }
 ]
 
