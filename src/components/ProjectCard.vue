@@ -5,11 +5,11 @@
             :style="{ backgroundImage: `url(${pictureUrl})` }"
         ></div>
         <div class="p-5">
-            <h5 class="text-white font-mono font-bold text-2xl tracking-tight mb-2">{{ title }}</h5>
-            <p class="font-mono text-white mb-3">{{ description }}</p>
+            <h5 class="font-mono font-bold text-2xl tracking-tight mb-2">{{ title }}</h5>
+            <p class="font-mono mb-3 description-line-clamp">{{ description }}</p>
             <a
                 href="#"
-                class="text-white font-mono rounded-lg text-sm px-3 py-2 text-center inline-flex items-center border-2 border-gray-200 hover:text-purple-500 hover:border-purple-500"
+                class="font-mono rounded-lg text-sm px-3 py-2 text-center inline-flex items-center border-2 border-gray-200 hover:text-purple-500 hover:border-purple-500"
             >
                 See more
                 <svg
@@ -38,4 +38,12 @@ defineProps({
 </script>
 
 <style scoped>
+.description-line-clamp {
+  height: 7.4rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
 </style>

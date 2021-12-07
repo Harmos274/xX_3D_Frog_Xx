@@ -2286,24 +2286,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"troisjs-ts@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "troisjs-ts@workspace:."
-  dependencies:
-    "@types/three": ^0.134.0
-    "@vitejs/plugin-vue": ^1.9.4
-    "@vue/compiler-sfc": ^3.2.20
-    autoprefixer: ^10.4.0
-    postcss: ^8.4.4
-    tailwindcss: ^2.2.19
-    three: ^0.134.0
-    troisjs: ^0.3.3
-    typescript: ^4.4.4
-    vite: ^2.6.14
-    vue: ^3.2.20
-  languageName: unknown
-  linkType: soft
-
 "troisjs@npm:^0.3.3":
   version: 0.3.3
   resolution: "troisjs@npm:0.3.3"
@@ -2438,6 +2420,24 @@ __metadata:
   checksum: ac5dfa738b21f6e7f0dd6e65e1b3155036d68104e67e5d5d1bde74892e327d7e5636a076f625599dc394330a731861e87343ff184b0047fef1360a7ec0a5a36a
   languageName: node
   linkType: hard
+
+"xx_3d_frog_xx@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "xx_3d_frog_xx@workspace:."
+  dependencies:
+    "@types/three": ^0.134.0
+    "@vitejs/plugin-vue": ^1.9.4
+    "@vue/compiler-sfc": ^3.2.20
+    autoprefixer: ^10.4.0
+    postcss: ^8.4.4
+    tailwindcss: ^2.2.19
+    three: ^0.134.0
+    troisjs: ^0.3.3
+    typescript: ^4.4.4
+    vite: ^2.6.14
+    vue: ^3.2.20
+  languageName: unknown
+  linkType: soft
 
 "yallist@npm:^4.0.0":
   version: 4.0.0

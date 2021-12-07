@@ -1,10 +1,10 @@
 <template>
-    <div class="bg-black p-10">
-        <h1 class="font-mono text-5xl text-white text-center">Languages</h1>
+    <div class="p-10">
+        <h1 class="font-mono text-5xl text-center">Languages</h1>
         <div class="mt-20 flex justify-center">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
                 <language-progress
-                    class="w-96"
+                    class="w-72 sm:w-96"
                     v-for="(language, i) in languages"
                     :key="i"
                     :language-name="language.name"
@@ -72,6 +72,3 @@ const languages = [
     }
 ]
 </script>
-
-<style scoped>
-</style>justify-center

@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-black p-10">
-        <h1 class="font-mono text-5xl text-white text-center">Frameworks</h1>
+    <div class="p-10">
+        <h1 class="font-mono text-5xl text-center">Frameworks</h1>
     </div>
 </template>
 

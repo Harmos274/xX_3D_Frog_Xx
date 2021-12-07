@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center space-x-4">
-        <div class="flex-shrink-0">
+        <div class="flex-shrink">
             <img
                 class="w-16 h-16"
                 :src="languageLogo"
@@ -8,7 +8,7 @@
             />
         </div>
         <div class="flex-1 min-w-0">
-            <div class="text-lg text-white font-mono mb-2">{{ languageName }}</div>
+            <div class="text-lg font-mono mb-2">{{ languageName }}</div>
             <div class="w-full bg-gray-200 rounded-full h-2">
                 <div :class="`bg-${color} h-2 rounded-full`" :style="{'width': `${percentage}%`}"></div>
             </div>

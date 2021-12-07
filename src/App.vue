@@ -11,3 +11,9 @@ import Technologies from './sections/Technologies.vue';
 import Projects from './sections/Projects.vue';
 import Frameworks from './sections/Frameworks.vue';
 </script>
+
+<style>
+body {
+  @apply bg-black text-white
+}
+</style>
