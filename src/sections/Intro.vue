@@ -3,6 +3,7 @@
         <head-bar class="absolute top-1 min-w-full" />
         <frog />
         <intro-text
+            @scroll-to-projects="$emit('scrollToProjects')"
             class="intro-text-position intro-text-style z-10"
         />
         <div
@@ -15,6 +16,8 @@
 import Frog from '../components/Frog.vue';
 import HeadBar from '../components/HeadBar.vue';
 import IntroText from '../components/IntroText.vue';
+
+const emits = defineEmits(['scrollToProjects'])
 </script>
 
 <style scoped>
